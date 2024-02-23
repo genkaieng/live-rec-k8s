@@ -1,0 +1,15 @@
+dependencies:
+- name: kafka
+  repository: https://charts.bitnami.com/bitnami
+  version: 26.8.5
+- name: argo-events
+  repository: https://argoproj.github.io/argo-helm
+  version: 2.4.0
+- name: argo-workflows
+  repository: https://argoproj.github.io/argo-helm
+  version: 0.40.9
+- name: minio
+  repository: https://charts.bitnami.com/bitnami
+  version: 13.3.3
+digest: sha256:a1042e02e201b24742132fcd0c51a7cc1a13617eb6aa94b36960b5a2bb89ead6
+generated: "2024-02-23T19:40:59.605688665+09:00"
